@@ -1,0 +1,10 @@
+Assistente Administrativo 1000.0
+Gerente Administrativo 7000.70
+Diretor Administrativo 10000.45
+Assistente Financeiro 1300.9
+Gerente Financeiro 7500
+Diretor Financeiro 11000.0
+Estagiário Jurídico 700.4
+Assistente Jurídico 1800.90
+Gerente Jurídico 9500.50
+Diretor Jurídico 13000.0

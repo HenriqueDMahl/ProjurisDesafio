@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio projuris</title>
+</head>
+
+<script src="index.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<body>
+
+<h2>Desafio 1 - Arrays</h2>
+<form action="">
+    <p>Padrão para enviar [1,2,3,4,5,6,7]</p>
+    <div>
+        <label for="arr1">Array de busca: </label>
+        <!-- Set via HTML -->
+        <input id="arr1" type="text"/>
+    </div>
+
+    <div>
+        <label for="arr2">Array alvo: </label>
+        <!-- Set via HTML -->
+        <input id="arr2" type="text"/>
+    </div>
+
+    <input type="button" value="Enviar" onclick="saved1()">
+
+    <p>
+        Resultado: <label id="resultado_d1"></label>
+    </p>
+
+
+</form>
+
+<h2>Desafio 2 - Char</h2>
+<form action="">
+    <div>
+        <label for="char1">Palavra: </label>
+        <!-- Set via HTML -->
+        <input id="char1" type="text"/>
+    </div>
+
+    <input type="button" value="Enviar" onclick="saved2()">
+
+    <p>
+        Resultado: <label id="resultado_d2"></label>
+    </p>
+
+
+</form>
+
+<h2>Desafio 3 - Calculo</h2>
+<form method="POST" action="/upload" enctype="multipart/form-data" accept-charset="UTF-8">
+    <input type="file" name="file" />
+    <br /><br />
+    <input type="submit" value="Enviar" />
+</form>
+<a href="../../resources/static/exemplo_de_arquivo.txt">Exemplo de arquivo que é valido</a>
+
+</body>
+</html>
